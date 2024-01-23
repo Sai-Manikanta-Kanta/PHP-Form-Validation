@@ -1,0 +1,98 @@
+#body-wrapper{
+  background-color: gray;
+}
+.form-card {
+  width: 80vw;
+  height: 80vh;
+  background-color: #ffffff;
+}
+.top-section {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.middle-section {
+  width: 100%;
+  height: 60%;
+
+  display: flex;
+}
+.bottom-section {
+  width: 100%;
+  height: 20%;
+  
+}
+#logo {
+  width: 30%;
+  height: 60%;
+}
+#form-heading {
+  font-size: 1.3vw;
+  color: #555555;
+}
+.left-container {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.right-container {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.firstname-wrapper {
+  width: 100%;
+  height: 33.3%;
+}
+#firstname-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
+#password-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
+#email-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
+input {
+  width: 20vw;
+  height: 2vw;
+  margin-top: 5%;
+  background-color: #EEEEEE;
+ border: none;
+}
+
+button{
+    position: absolute;
+    width: 8vw;
+    height: 2vw;
+   top: 30vw;
+   left: 19.3vw;
+    background-color: #1E2772;
+    color: white;
+}
+
+h4{
+    margin-left: 30vw;
+    margin-bottom: 10vw;
+    color: red;
+}
